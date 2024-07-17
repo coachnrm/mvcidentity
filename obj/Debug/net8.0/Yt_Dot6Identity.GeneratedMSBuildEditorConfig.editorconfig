@@ -17,87 +17,87 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Yt_Dot6Identity
 build_property.RootNamespace = Yt_Dot6Identity
-build_property.ProjectDir = C:\Users\Admin\Desktop\Yt_Dot6Identity\Yt_Dot6Identity\
+build_property.ProjectDir = Z:\mvcidentity\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Admin\Desktop\Yt_Dot6Identity\Yt_Dot6Identity
+build_property.MSBuildProjectDirectory = Z:\mvcidentity
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Admin/Desktop/Yt_Dot6Identity/Yt_Dot6Identity/Views/Admin/Display.cshtml]
+[Z:/mvcidentity/Views/Admin/Display.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGlzcGxheS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Yt_Dot6Identity/Yt_Dot6Identity/Views/Dashboard/Display.cshtml]
+[Z:/mvcidentity/Views/Dashboard/Display.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXERpc3BsYXkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Yt_Dot6Identity/Yt_Dot6Identity/Views/Home/Index.cshtml]
+[Z:/mvcidentity/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Yt_Dot6Identity/Yt_Dot6Identity/Views/Home/Privacy.cshtml]
+[Z:/mvcidentity/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Yt_Dot6Identity/Yt_Dot6Identity/Views/Job/Create.cshtml]
+[Z:/mvcidentity/Views/Job/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Yt_Dot6Identity/Yt_Dot6Identity/Views/Job/Edit.cshtml]
+[Z:/mvcidentity/Views/Job/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Yt_Dot6Identity/Yt_Dot6Identity/Views/Job/Index.cshtml]
+[Z:/mvcidentity/Views/Job/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSm9iXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Yt_Dot6Identity/Yt_Dot6Identity/Views/NurseRequest/Create.cshtml]
+[Z:/mvcidentity/Views/NurseRequest/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnVyc2VSZXF1ZXN0XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Yt_Dot6Identity/Yt_Dot6Identity/Views/NurseRequest/Edit.cshtml]
+[Z:/mvcidentity/Views/NurseRequest/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnVyc2VSZXF1ZXN0XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Yt_Dot6Identity/Yt_Dot6Identity/Views/NurseRequest/Index.cshtml]
+[Z:/mvcidentity/Views/NurseRequest/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTnVyc2VSZXF1ZXN0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Yt_Dot6Identity/Yt_Dot6Identity/Views/Shared/Error.cshtml]
+[Z:/mvcidentity/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Yt_Dot6Identity/Yt_Dot6Identity/Views/Shared/_LoginPartial.cshtml]
+[Z:/mvcidentity/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Yt_Dot6Identity/Yt_Dot6Identity/Views/Shared/_ValidationScriptsPartial.cshtml]
+[Z:/mvcidentity/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Yt_Dot6Identity/Yt_Dot6Identity/Views/UserAuthentication/ChangePassword.cshtml]
+[Z:/mvcidentity/Views/UserAuthentication/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1dGhlbnRpY2F0aW9uXENoYW5nZVBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Yt_Dot6Identity/Yt_Dot6Identity/Views/UserAuthentication/Login.cshtml]
+[Z:/mvcidentity/Views/UserAuthentication/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1dGhlbnRpY2F0aW9uXExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Yt_Dot6Identity/Yt_Dot6Identity/Views/UserAuthentication/Registration.cshtml]
+[Z:/mvcidentity/Views/UserAuthentication/Registration.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1dGhlbnRpY2F0aW9uXFJlZ2lzdHJhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Yt_Dot6Identity/Yt_Dot6Identity/Views/_ViewImports.cshtml]
+[Z:/mvcidentity/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Yt_Dot6Identity/Yt_Dot6Identity/Views/_ViewStart.cshtml]
+[Z:/mvcidentity/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Desktop/Yt_Dot6Identity/Yt_Dot6Identity/Views/Shared/_Layout.cshtml]
+[Z:/mvcidentity/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gjjuixsxlw
