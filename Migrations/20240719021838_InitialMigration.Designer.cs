@@ -12,7 +12,7 @@ using Yt_Dot6Identity.Models.Domain;
 namespace Yt_Dot6Identity.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20240719015406_InitialMigration")]
+    [Migration("20240719021838_InitialMigration")]
     partial class InitialMigration
     {
         /// <inheritdoc />
@@ -332,69 +332,57 @@ namespace Yt_Dot6Identity.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("JobId"));
 
                     b.Property<string>("Department")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("EndDate")
+                    b.Property<DateTime?>("EndDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("EndPoint")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("EndTime")
+                    b.Property<DateTime?>("EndTime")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("JobStatusName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("MaterialType")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PatientType")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PoterFname")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("QN")
+                    b.Property<int?>("QN")
                         .HasColumnType("int");
 
                     b.Property<string>("QNAge")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("QNName")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("QNSex")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Remark")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("ReqDate")
+                    b.Property<DateTime?>("ReqDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("ReqTime")
+                    b.Property<DateTime?>("ReqTime")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("StartPoint")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("UrentType")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("UserId")
+                    b.Property<int?>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("JobId");
