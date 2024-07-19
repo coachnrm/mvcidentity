@@ -19,7 +19,7 @@ namespace Yt_Dot6Identity.Controllers
         }
         public IActionResult Index()
         {
-            var nurserequest = context.NurseRequests.OrderByDescending(p => p.JobId).ToList();
+            var nurserequest = context.NurseRequest.OrderByDescending(p => p.JobId).ToList();
             return View(nurserequest);
         }
          public IActionResult Create()
@@ -51,14 +51,14 @@ namespace Yt_Dot6Identity.Controllers
                 QNAge = "null",
                 QNSex = "null",
             };
-            context.NurseRequests.Add(nurseRequest);
+            context.NurseRequest.Add(nurseRequest);
             context.SaveChanges();
             return RedirectToAction("Index", "NurseRequest");
         }
 
         public IActionResult Edit(int id)
         {
-            var nurseRequest = context.NurseRequests.Find(id);
+            var nurseRequest = context.NurseRequest.Find(id);
             if(nurseRequest == null)
             {
                 return RedirectToAction("Index", "NurseRequest");
@@ -87,7 +87,7 @@ namespace Yt_Dot6Identity.Controllers
         [HttpPost]
          public IActionResult Edit(int id, NurseRequestDto nurseRequestDto)
          {
-            var nurseRequest = context.NurseRequests.Find(id);
+            var nurseRequest = context.NurseRequest.Find(id);
             if(nurseRequest == null)
             {
                 return RedirectToAction("Index", "NurseRequest");
@@ -113,12 +113,12 @@ namespace Yt_Dot6Identity.Controllers
          }
          public IActionResult Delete(int id)
         {
-            var nurseRequest = context.NurseRequests.Find(id);
+            var nurseRequest = context.NurseRequest.Find(id);
             if(nurseRequest == null)
             {
                 return RedirectToAction("Index", "NurseRequest");
             }
-            context.NurseRequests.Remove(nurseRequest);
+            context.NurseRequest.Remove(nurseRequest);
             context.SaveChanges(true);
 
             return RedirectToAction("Index", "NurseRequest");
