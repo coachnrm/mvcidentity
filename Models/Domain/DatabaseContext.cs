@@ -15,7 +15,7 @@ namespace Yt_Dot6Identity.Models.Domain
         public DbSet<JobStatus> JobStatuses {get; set;}
         public DbSet<Material> Materials {get; set;}
         public DbSet<MaterialStatus> MaterialStatuses {get; set;}
-        public DbSet<NurseRequest> NurseRequests {get; set;}
+        public DbSet<NurseRequest> NurseRequest {get; set;}
         public DbSet<Patient> Patients {get; set;}
         public DbSet<Poter> Poters {get; set;}
         public DbSet<Urgent> Urgents {get; set;}

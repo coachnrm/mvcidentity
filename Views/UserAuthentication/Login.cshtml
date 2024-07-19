@@ -1,4 +1,4 @@
-﻿@using Yt_Dot6Identity.Models﻿.DTO
+﻿@using Yt_Dot6Identity.Models.DTO
 @model LoginModel
 @{
     Layout = null;
@@ -10,68 +10,60 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>login</title>
-        
-<style>
-
-form {
-  border: 3px solid #f1f1f1;
-  width:60%;
-  margin:auto;
-  margin-top:10%;
-}
-
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-button {
-  background-color: #aa048b;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-.container {
-  padding: 16px;
-}
-
-.msg{
-  padding: 0px;
-}
-
-
-.err{
-    color:red;
-}
-</style>
- 
+    
 </head>
 <body>
-	
 <form asp-action="Login" method="post">
+<div >
+    @* <div class="container mt-5 d-flex justify-content-center grid"> *@
+        <div class="wrapper" >
+            <div class="card-header" style="height:50px;">
+                <h3>LOGIN</h3>
+            </div>
+            <div class="card-body" style="height:170px;">
+                <div class="input-box">
+                    @* <label class="form-label">Username</label> *@
+                    <input type="text" asp-for="Username" placeholder="Enter Username">
+                    <div class="msg">
+                        <span class="err" asp-validation-for="Username"></span>
+                    </div>
+                </div>
+                <div class="cen" >
+                    <ValidationMessage For="()=> _model.UserName" />
+                </div>
+                <div class="input-box">
+                    @* <label class="form-label">Password</label> *@
+                   <input  type="password" asp-for="Password" placeholder="Enter Password">
+                    <div class="msg">
+                        <span asp-validation-for="Password" class="err"></span>
+                    </div>
+                </div>
+                <div class="cen" >
+                    <ValidationMessage For="()=> _model.Password" />
+                </div>
+            </div>
+            <div class="card-footer">
+                <button type="submit" class ="btn btn-success bth-sm">Login</button>
+            </div>
+          
+        </div>
+    @* </div> *@
+</div>    
+
+
+
   
-  <div class="container">
+  @* <div class="container">
     <label asp-for="Username"><b>Username</b></label>
-    <input type="text" asp-for="Username" placeholder="Enter Username">
+      <input type="text" asp-for="Username" placeholder="Enter Username">
             <div class="msg">
             <span class="err" asp-validation-for="Username"></span>
             </div>
-
-            
-
     <label asp-for="Password"><b>Password</b></label>
    <input  type="password" asp-for="Password" placeholder="Enter Password">
             <div class="msg">
             <span asp-validation-for="Password" class="err"></span>
-            </div>
+      </div> *@
 
 
     @if(TempData["msg"]!=null){
